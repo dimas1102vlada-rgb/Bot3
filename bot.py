@@ -99,7 +99,7 @@ def save_config():
 # Основная логика бота
 
 if __name__ == '__main__':
-    TOKEN = CONFIG['8475867046:AAFl0XNDi6tJlaP7biBI4eL3JdevFYu1Qfw']
+    TOKEN = CONFIG['']
     application = ApplicationBuilder().token(TOKEN).build()
 
     conv_handler = ConversationHandler(
